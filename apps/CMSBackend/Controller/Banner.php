@@ -7,6 +7,7 @@ use Flywheel\Session\Session;
 use Flywheel\Util\Folder;
 
 class Banner extends CMSBackendBase {
+    public $nguyengiang;
     public function executeDefault() {
         $this->setView('Banner/default');
         $session = Session::getInstance();
